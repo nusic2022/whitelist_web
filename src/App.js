@@ -43,9 +43,9 @@ function App() {
 		<Box bg={bg}>
     <Router>
         <Routes>
-          <Route exact path="/:id/:ref" element={<Donate />}/>
-          <Route exact path="/:id" element={<Donate />}/>
 					<Route exact path="/" element={<Home/>}/>
+          <Route exact path="/:id/:ref" element={<Donate/>}/>
+          <Route exact path="/:id" element={<Donate/>}/>
         </Routes>
     </Router>
 		</Box>
